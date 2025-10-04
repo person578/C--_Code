@@ -47,7 +47,7 @@ int main()
             cout << "It's September" << '\n';
             break;
         default:
-            cout << "pick a number (1-12)" << '\n'
+            cout << "pick a number (1-12)" << '\n';
     }
 
     return 0;
