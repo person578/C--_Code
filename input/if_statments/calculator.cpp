@@ -21,20 +21,16 @@ int main()
 
     switch(op){
         case '+':
-            total = num1 + num2;
-            cout << num1 << " plus " << num2 << " is " << total << '\n';
+            cout << num1 << " plus " << num2 << " is " << (num1 + num2) << '\n';
             break;
         case '-':
-            total = num1 - num2;
-            cout << num1 << " minus " << num2 << " is " << total << '\n';
+            cout << num1 << " minus " << num2 << " is " << (num1 - num2) << '\n';
             break;
         case '*':
-            total = num1 * num2;
-            cout << num1 << " times " << num2 << " is " << total << '\n';
+            cout << num1 << " times " << num2 << " is " << (num1 * num2) << '\n';
             break;
         case '/':
-            total = num1 / num2;
-            cout << num1 << " divided by " << num2 << " is " << total << '\n';
+            cout << num1 << " divided by " << num2 << " is " << (num1 / num2) << '\n';
             break;
         default:
             cout << "select a valid operator (+ - * /)";
