@@ -1,19 +1,20 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
 {
 
-    int i;
+    double number;
+    double x;
 
-    cout << "What is i? ";
-    cin >> i;
+    cout << "What number do you want to find the square of? ";
+    cin >> number;
 
-    if(i > 0){
-        i+=2;
-    }
+    x = number;
+    number = pow(number, 2);
 
-    cout << i << '\n';
+    cout << "The square of " << x << " is " << number << '\n';
 
     return 0;
 }
