@@ -44,7 +44,7 @@ int main()
             cout << "It's November" << '\n';
             break;
         case 12:
-            cout << "It's September" << '\n';
+            cout << "It's December" << '\n';
             break;
         default:
             cout << "pick a number (1-12)" << '\n';
