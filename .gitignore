@@ -1,4 +1,5 @@
 input/user-input
+input/if_statments/a.java
 input/if_statments/calculator
 input/if_statments/switch-statments
 input/if_statments/if-statments
@@ -6,6 +7,8 @@ input/if_statments/ternary-operator
 input/if_statments/test
 input/if_statments/pattern_output.txt
 input/if_statments/test.cpp
+input/if_statments/chatgpt.cpp
+input/if_statments/chatgpt
 const
 name-space
 type-conversion
