@@ -4,6 +4,8 @@ input/if_statments/switch-statments
 input/if_statments/if-statments
 input/if_statments/ternary-operator
 input/if_statments/test
+input/if_statments/pattern_output.txt
+input/if_statments/test.cpp
 const
 name-space
 type-conversion
