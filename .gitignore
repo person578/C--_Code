@@ -9,7 +9,8 @@ input/if_statments/pattern_output.txt
 input/if_statments/test.cpp
 input/if_statments/chatgpt.cpp
 input/if_statments/chatgpt
-input/while-loops/do-while
+input/loops/while-loops/do-while
+input/loops/for-loops/learning
 const
 name-space
 type-conversion
