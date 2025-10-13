@@ -7,7 +7,7 @@ int main()
     int number;
 
     do {
-        cout << "Enter a postive # this time ";
+        cout << "Enter a postive # ";
         cin >> number;
     }while(number < 0);
 
