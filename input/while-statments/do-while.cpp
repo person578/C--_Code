@@ -11,7 +11,7 @@ int main()
         cin >> number;
     }
 
-    
+    cout << "The number is " << number << endl;
 
     return 0;
 }
