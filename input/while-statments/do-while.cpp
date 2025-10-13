@@ -6,10 +6,10 @@ int main()
 
     int number;
 
-    while(number < 0){
+    do {
         cout << "Enter a postive # this time ";
         cin >> number;
-    }
+    }while(number < 0);
 
     cout << "The number is " << number << endl;
 
