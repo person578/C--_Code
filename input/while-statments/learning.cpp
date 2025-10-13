@@ -6,7 +6,7 @@ int main()
 
     string name;
 
-    while(name.empty){
+    while(name.empty()){
         cout << "What is your name? ";
         getline(cin, name);
     }
