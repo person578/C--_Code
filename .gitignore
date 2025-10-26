@@ -17,6 +17,7 @@ input/loops/for-loops/dice-roller
 input/functions
 input/overloaded-functions
 input/return
+input/random-things/number-guessing-game
 simple-programs/random-numbers
 simple-programs/random-events
 const
