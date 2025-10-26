@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-  int number, guesses;
+  int number, guess;
   int tries = 0;
 
   srand(time(NULL));
@@ -12,19 +12,19 @@ int main()
 
   do{
     cout << "Enter a guess between 1 and 100 ";
-    cin  >> guesses;
+    cin  >> guess;
     tries++;
 
-    if(guesses > number){
+    if(guess > number){
       cout << "Your guess is to high" << endl;
     }
-    else if(guesses < number){
+    else if(guess < number){
       cout << "Your guess is to low" << endl;
     }
     else{
       cout << "YOU GUESSED RIGHT (it took " << tries << " tries)" << endl;
     }
-  }while(number != guesses);
+  }while(number != guess);
 
   return 0;
 }
