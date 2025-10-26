@@ -7,7 +7,7 @@ double withdraw(double balance);
 
 int main()
 {
-    double balance = 0;
+    double balance = 396.96;
     int choice = 0;
     do{
         cout << "******************\n";
@@ -21,16 +21,31 @@ int main()
         cin >> choice;
 
         switch(choice){
-            case 1: showBalance(balance);
+            case 1:
+                showBalance(balance);
                 break;
-            case 2: balance += deposit();
+            case 2:
+                balance += deposit();
                 break;
-            case 3: balance -= withdraw(balance);
+            case 3:
+                balance -= withdraw(balance);
                 break;
-            case 4: cout << "Thanks for visiting\n";
+            case 4:
+                cout << "Thanks for visiting\n";
                 break;
-            default: cout << "Invalid response";
+            default:
+                cout << "Invalid response";
         }
     }while(choice != 4);
+    return 0;
+}
+
+void showBalance(double balance){
+    cout << "Your balance is $" << balance << '\n';
+}
+double deposit(){
+    return 0;
+}   
+double withdraw(double balance){
     return 0;
 }
