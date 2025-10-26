@@ -6,7 +6,7 @@ int main()
 
     string name;
     int age;
-    
+
     cout << "What's your age? ";
     cin >> age;
 
