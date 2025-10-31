@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 void showBalance(double balance);
@@ -7,7 +8,7 @@ double withdraw(double balance);
 
 int main()
 {
-    double balance = 396.96;
+    double balance = 397;
     int choice = 0;
     do{
         cout << "******************\n";
@@ -37,11 +38,12 @@ int main()
                 cout << "Invalid response";
         }
     }while(choice != 4);
+
     return 0;
 }
 
 void showBalance(double balance){
-    cout << "Your balance is $" << balance << '\n';
+    cout << "Your balance is $" << setprecision(2) << std::fixed << balance << '\n';
 }
 double deposit(){
     return 0;
